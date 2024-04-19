@@ -1,3 +1,8 @@
+function startGame() {
+  // Hide start button and show game area
+  document.getElementById('start-button').style.display = 'none';
+  document.getElementById('game-area').style.display = 'block';
+
 // Function to handle option 1
 function chooseOption1() {
   document.getElementById('result').textContent = "I did.";
